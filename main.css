@@ -1,0 +1,303 @@
+#header {
+	min-height: 120px;
+	max-height: 400px;
+	max-width: 100%;
+	}
+
+
+.info {
+	display: inline-block;
+}
+
+
+#header li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px;
+
+}
+
+.text {
+	font-weight: 400;
+	color: #3b3c3e;
+}
+
+.numbers {
+	font-weight: bold;
+	color: #3c3d3f;
+}
+
+
+.str {
+	display:inline;
+
+	
+}
+
+.str h2 {
+	font-weight: 440;
+	text-align: left;
+	color: #262626;
+	margin-top: 40px;
+}
+
+#info button {
+	background: #fff;
+	color: #3991d9;
+	border: 1px solid #3991d9;
+	border-radius: 3px;
+	font-size: 15px;
+	padding: 5px 10px;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+#info button:hover {
+		background: #3991d9;
+		color: #fff;
+}
+
+.horizLine {
+	width: 100%;
+	height: 20px;
+	background: rgba(238,238,238,1);
+background: -moz-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(240,240,240,1) 9%, rgba(241,241,241,1) 19%, rgba(242,242,242,1) 29%, rgba(243,243,243,1) 37%, rgba(244,244,244,1) 46%, rgba(245,245,245,1) 55%, rgba(246,246,246,1) 65%, rgba(247,247,247,1) 76%, rgba(248,248,248,1) 81%, rgba(248,248,248,1) 85%, rgba(249,249,249,1) 93%, rgba(250,250,250,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(238,238,238,1)), color-stop(9%, rgba(240,240,240,1)), color-stop(19%, rgba(241,241,241,1)), color-stop(29%, rgba(242,242,242,1)), color-stop(37%, rgba(243,243,243,1)), color-stop(46%, rgba(244,244,244,1)), color-stop(55%, rgba(245,245,245,1)), color-stop(65%, rgba(246,246,246,1)), color-stop(76%, rgba(247,247,247,1)), color-stop(81%, rgba(248,248,248,1)), color-stop(85%, rgba(248,248,248,1)), color-stop(93%, rgba(249,249,249,1)), color-stop(100%, rgba(250,250,250,1)));
+background: -webkit-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(240,240,240,1) 9%, rgba(241,241,241,1) 19%, rgba(242,242,242,1) 29%, rgba(243,243,243,1) 37%, rgba(244,244,244,1) 46%, rgba(245,245,245,1) 55%, rgba(246,246,246,1) 65%, rgba(247,247,247,1) 76%, rgba(248,248,248,1) 81%, rgba(248,248,248,1) 85%, rgba(249,249,249,1) 93%, rgba(250,250,250,1) 100%);
+background: -o-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(240,240,240,1) 9%, rgba(241,241,241,1) 19%, rgba(242,242,242,1) 29%, rgba(243,243,243,1) 37%, rgba(244,244,244,1) 46%, rgba(245,245,245,1) 55%, rgba(246,246,246,1) 65%, rgba(247,247,247,1) 76%, rgba(248,248,248,1) 81%, rgba(248,248,248,1) 85%, rgba(249,249,249,1) 93%, rgba(250,250,250,1) 100%);
+background: -ms-linear-gradient(top, rgba(238,238,238,1) 0%, rgba(240,240,240,1) 9%, rgba(241,241,241,1) 19%, rgba(242,242,242,1) 29%, rgba(243,243,243,1) 37%, rgba(244,244,244,1) 46%, rgba(245,245,245,1) 55%, rgba(246,246,246,1) 65%, rgba(247,247,247,1) 76%, rgba(248,248,248,1) 81%, rgba(248,248,248,1) 85%, rgba(249,249,249,1) 93%, rgba(250,250,250,1) 100%);
+background: linear-gradient(to bottom, rgba(238,238,238,1) 0%, rgba(240,240,240,1) 9%, rgba(241,241,241,1) 19%, rgba(242,242,242,1) 29%, rgba(243,243,243,1) 37%, rgba(244,244,244,1) 46%, rgba(245,245,245,1) 55%, rgba(246,246,246,1) 65%, rgba(247,247,247,1) 76%, rgba(248,248,248,1) 81%, rgba(248,248,248,1) 85%, rgba(249,249,249,1) 93%, rgba(250,250,250,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#fafafa', GradientType=0 );
+}
+
+.info {
+	display: inline;
+	text-align: left;
+	position: relative;
+}
+
+.info p {
+	padding-right: 15px;
+	padding-top: 5px;
+	display: inline;
+
+}
+
+.datepickers {
+	width: 450px;
+	margin-top: 10px;
+}
+
+.datepickers input {
+	margin-right: 30px;
+	margin-left: 15px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
+
+.datepickers p {
+	margin-top: 5px;
+}
+
+
+
+#content {
+	background: #fafafa;
+	max-width: 100%;
+	max-height: auto;
+}
+
+.photos {
+	width: 60%;
+	margin: 30px auto;
+	overflow: hidden;
+
+}
+
+.photos ul li {
+	list-style: none;
+	float: left;
+	width: 31.3%;
+	margin: 0% 1% 40px 1%;
+}
+
+.photos ul li img {
+	max-width: 100%;
+	max-height: auto;
+}
+
+#load {
+	border: 1px solid #000;
+	background: #fafafa;
+	width: 130px;
+	text-align: center;
+	font-size: 11px;
+	padding: 10px 30px;
+	border-radius: 15px;
+	position: relative;
+	bottom: 30px;
+}
+
+/*100% (3*10%) = 70%*/
+/*70/3 = 23.3*/
+@media only screen and (max-width: 995px),
+only screen and (max-device-width : 995px) {
+#info  {
+	position: relative;
+	bottom: 170px;
+	left: 30%;
+	width: 400px;
+}
+#header {
+	height: 190px;
+}
+#load {
+	border: 1px solid #000;
+	background: #fafafa;
+	width: 130px;
+	text-align: center;
+	font-size: 11px;
+	padding: 10px 30px;
+	border-radius: 15px;
+	position: relative;
+	left: 300px;
+}
+
+/*
+@media only screen and (max-width: 750px),
+only screen and (max-device-width : 750px) {
+#info  {
+	position: relative;
+	bottom: 170px;
+	left: 35%;
+
+}
+#header {
+	height: 190px;
+}*/
+
+
+@media only screen and (max-width: 765px),
+only screen and (max-device-width : 765px) {
+	#load {
+	border: 1px solid #000;
+	background: #fafafa;
+	width: 130px;
+	text-align: center;
+	font-size: 11px;
+	padding: 10px 30px;
+	border-radius: 15px;
+	position: relative;
+	left: 195px;
+}
+}
+
+
+@media only screen and (max-width: 698px),
+only screen and (max-device-width : 698px) {
+#info  {
+	position: absolute;
+	display: inline;
+	top: -170px;
+	left: 35%;
+	width: 350px;
+	margin: auto;
+	
+}
+
+#load {
+	border: 1px solid #000;
+	background: #fafafa;
+	width: 130px;
+	text-align: center;
+	font-size: 11px;
+	padding: 10px 30px;
+	border-radius: 15px;
+	position: relative;
+	left: 175px;
+}
+
+h2 {
+	font-size: 25px;
+	
+}
+.str h2 button {
+	position: relative;
+	width : 250px;
+	left: -10px;
+	top: 190px
+}
+#header {
+	height: 250px;
+}
+
+.datepickers {
+	width: 130px;
+}
+
+.datepickers #datepicker .kek1 {
+	width: 150px;
+	position: relative;
+	height: 30px;
+	bottom: 40px;
+	left: 30px;
+}
+
+
+.datepickers #datepicker .kek2 {
+	width: 150px;
+	position: relative;
+	left: 30px;
+	bottom: 30px;
+	height: 30px;
+}
+
+#header  img {
+	position: relative;
+	top: 25px;
+}
+
+.info p {
+	padding-right: 5px;
+	padding-top: 5px;
+	display: inline;
+
+}
+
+@media only screen and (max-width: 940px),
+only screen and (max-device-width : 940px) {
+.photos ul li {
+	width: 90%;
+	height: auto
+}
+
+}
+
+@media only screen and (max-width: 720px),
+only screen and (max-device-width : 720px) {
+	
+	.photos ul li {
+	width: 90%;
+	height: auto
+}
+
+}
+
+@media only screen and (max-width: 530px),
+only screen and (max-device-width : 530px) {
+		.photos ul li {
+	width: 100%;
+	height: auto
+}
+}
+
+@media only screen and (max-width: 320px),
+only screen and (max-device-width : 320px) {
+		.photos ul li {
+	width: 100%;
+	height: auto
+}
+}
+
+
